@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="f2" displayName="Characters" projectFiles="true">
+        <itemPath>src/objects/characters/Character.h</itemPath>
+        <itemPath>src/objects/characters/Inventory.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="Items" projectFiles="true">
+        <itemPath>src/objects/items/item.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f4" displayName="Managers" projectFiles="true">
+        <itemPath>src/Managers/Display_manager.h</itemPath>
+        <itemPath>src/Managers/List_manager.h</itemPath>
+        <itemPath>src/Managers/Main_manager.h</itemPath>
+        <itemPath>src/Managers/Process_queue_manager.h</itemPath>
+        <itemPath>src/Managers/Setting_manager.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f3" displayName="Pleaces" projectFiles="true">
+        <logicalFolder name="f1" displayName="Settlements" projectFiles="true">
+          <itemPath>src/objects/pleaces/settlement/Settlement.h</itemPath>
+        </logicalFolder>
+        <itemPath>src/objects/pleaces/Pleace.h</itemPath>
+      </logicalFolder>
+      <itemPath>src/objects/items/Base_price_table.h</itemPath>
+      <itemPath>src/objects/pleaces/settlements/settlement_buildings/Settlement_building.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="f2" displayName="Characters" projectFiles="true">
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="Items" projectFiles="true">
+      </logicalFolder>
+      <logicalFolder name="f3" displayName="Managers" projectFiles="true">
+        <itemPath>src/Managers/Display_manager.cpp</itemPath>
+        <itemPath>src/Managers/List_manager.cpp</itemPath>
+        <itemPath>src/Managers/Main_manager.cpp</itemPath>
+        <itemPath>src/Managers/Process_queue_manager.cpp</itemPath>
+        <itemPath>src/Managers/Setting_manager.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f4" displayName="Pleaces" projectFiles="true">
+        <logicalFolder name="f1" displayName="Settlements" projectFiles="true">
+        </logicalFolder>
+      </logicalFolder>
+      <itemPath>src/objects/items/Base_price_table.cpp</itemPath>
+      <itemPath>src/objects/characters/Character.cpp</itemPath>
+      <itemPath>src/objects/characters/Inventory.cpp</itemPath>
+      <itemPath>src/objects/items/Item.cpp</itemPath>
+      <itemPath>src/objects/pleaces/settlements/settlement_buildings/Settlement_building.cpp</itemPath>
+      <itemPath>src/main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem></Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>11</standard>
+          <incDir>
+            <pElem>../../Programing_libraries/SFML-2.4.2-source/include</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>../../Programing_libraries/SFML-2.4.2-source/lib</pElem>
+          </linkerAddLib>
+          <linkerCopySharedLibs>true</linkerCopySharedLibs>
+          <linkerLibItems>
+            <linkerLibLibItem>sfml-graphics-d</linkerLibLibItem>
+            <linkerLibLibItem>sfml-audio-d</linkerLibLibItem>
+            <linkerLibLibItem>sfml-network-d</linkerLibLibItem>
+            <linkerLibLibItem>sfml-window-d</linkerLibLibItem>
+            <linkerLibLibItem>sfml-system-d</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="src/Managers/Display_manager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Managers/Display_manager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Managers/List_manager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Managers/List_manager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Managers/Main_manager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Managers/Main_manager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Managers/Process_queue_manager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/Managers/Process_queue_manager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/Managers/Setting_manager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Managers/Setting_manager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/objects/characters/Character.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/objects/characters/Character.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/objects/characters/Inventory.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/objects/characters/Inventory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/objects/items/Base_price_table.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/objects/items/Base_price_table.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/objects/items/Item.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/objects/items/item.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/objects/pleaces/Pleace.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/objects/pleaces/settlement/Settlement.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/objects/pleaces/settlements/settlement_buildings/Settlement_building.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/objects/pleaces/settlements/settlement_buildings/Settlement_building.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>11</standard>
+          <incDir>
+            <pElem>../../Programing_libraries/SFML-2.4.2-source/include</pElem>
+          </incDir>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>../../Programing_libraries/SFML-2.4.2-source/lib</pElem>
+          </linkerAddLib>
+          <linkerCopySharedLibs>true</linkerCopySharedLibs>
+          <linkerLibItems>
+            <linkerLibLibItem>sfml-graphics</linkerLibLibItem>
+            <linkerLibLibItem>sfml-audio</linkerLibLibItem>
+            <linkerLibLibItem>sfml-network</linkerLibLibItem>
+            <linkerLibLibItem>sfml-window</linkerLibLibItem>
+            <linkerLibLibItem>sfml-system</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <packaging>
+        <packType>Tar</packType>
+        <packFileList>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/openal32.dll"
+                            from="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/openal32.dll"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/sfml-audio-2.dll"
+                            from="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/sfml-audio-2.dll"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/sfml-audio-d-2.dll"
+                            from="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/sfml-audio-d-2.dll"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/sfml-graphics-2.dll"
+                            from="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/sfml-graphics-2.dll"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/sfml-graphics-d-2.dll"
+                            from="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/sfml-graphics-d-2.dll"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/sfml-network-2.dll"
+                            from="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/sfml-network-2.dll"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/sfml-network-d-2.dll"
+                            from="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/sfml-network-d-2.dll"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/sfml-system-2.dll"
+                            from="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/sfml-system-2.dll"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/sfml-system-d-2.dll"
+                            from="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/sfml-system-d-2.dll"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/sfml-window-2.dll"
+                            from="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/sfml-window-2.dll"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/sfml-window-d-2.dll"
+                            from="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/sfml-window-d-2.dll"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}.exe"
+                            from="${OUTPUT_PATH}.exe"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}.exe"
+                            from="${OUTPUT_PATH}.exe"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}.exe"
+                            from="${OUTPUT_PATH}.exe"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}.exe"
+                            from="${OUTPUT_PATH}.exe"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}.exe"
+                            from="${OUTPUT_PATH}.exe"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}.exe"
+                            from="${OUTPUT_PATH}.exe"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+        </packFileList>
+      </packaging>
+      <item path="src/Managers/Display_manager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Managers/Display_manager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Managers/List_manager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Managers/List_manager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Managers/Main_manager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Managers/Main_manager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Managers/Process_queue_manager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/Managers/Process_queue_manager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/Managers/Setting_manager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Managers/Setting_manager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/objects/characters/Character.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/objects/characters/Character.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/objects/characters/Inventory.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/objects/characters/Inventory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/objects/items/Base_price_table.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/objects/items/Base_price_table.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/objects/items/Item.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/objects/items/item.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/objects/pleaces/Pleace.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/objects/pleaces/settlement/Settlement.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/objects/pleaces/settlements/settlement_buildings/Settlement_building.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/objects/pleaces/settlements/settlement_buildings/Settlement_building.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
