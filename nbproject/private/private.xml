@@ -7,15 +7,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/E:/Matko/Programing/Projects/economy_simulation/src/objects/characters/Character.cpp</file>
-            <file>file:/E:/Matko/Programing/Projects/economy_simulation/src/objects/characters/Inventory.cpp</file>
-            <file>file:/E:/Matko/Programing/Projects/economy_simulation/src/objects/characters/Inventory.h</file>
+            <file>file:/E:/Matko/Programing/Projects/economy_simulation/src/objects/characters/Population.h</file>
             <file>file:/E:/Matko/Programing/Projects/economy_simulation/src/main.cpp</file>
-            <file>file:/E:/Matko/Programing/Projects/economy_simulation/src/objects/items/Base_price_table.h</file>
-            <file>file:/E:/Matko/Programing/Projects/economy_simulation/src/objects/items/Item.cpp</file>
-            <file>file:/E:/Matko/Programing/Projects/economy_simulation/src/objects/items/Base_price_table.cpp</file>
-            <file>file:/E:/Matko/Programing/Projects/economy_simulation/src/objects/items/Item.h</file>
-            <file>file:/E:/Matko/Programing/Projects/economy_simulation/src/objects/characters/Character.h</file>
+            <file>file:/E:/Matko/Programing/Projects/economy_simulation/src/objects/pleaces/settlements/Settlement.cpp</file>
+            <file>file:/E:/Matko/Programing/Projects/economy_simulation/src/objects/characters/Population.cpp</file>
+            <file>file:/E:/Matko/Programing/Projects/economy_simulation/src/objects/pleaces/Pleace.h</file>
+            <file>file:/E:/Matko/Programing/Projects/economy_simulation/src/objects/pleaces/Pleace.cpp</file>
+            <file>file:/E:/Matko/Programing/Projects/economy_simulation/src/objects/pleaces/settlements/Settlement.h</file>
         </group>
     </open-files>
 </project-private>

@@ -15,23 +15,32 @@
 #define CHARACTER_H
 
 #include "Inventory.h"
+#include <list>
 
-
+//!!!!!!!!!!!!!!!!!!!!! development posed, until macro view is done!!!!!!!!!!!!!!!!!!
 enum Character_type{
     nobel, merchant, pesent, craftsman
 };
 
-
+template <Character_type type>
 class Character{
 public:
     Character();
-    virtual void init();
-    virtual Character_type get_type();
-    virtual void do_stuff();//TO DO: change to something
+    void init();
+    Character_type get_type();
+    void do_stuff();//TO DO: change to something
+    void consumption();
+    void check_deth();
+    void die();
     
 protected:
-    Character_type m_character_type;
+    //Character_type m_character_type;
     Inventory m_inventory;
+    int m_number_of_individuals;
+    bool m_male;
+    std::list<Character> m_family;
+    unsigned char m_age;
+    unsigned char m_die_age;
 };
 
 #endif /* CHARACTER_H */

@@ -2,6 +2,9 @@
 #define PROCESS_QUEUE_MANAGER_H
 
 
+#include <boost/function.hpp>
+
+
 class Main_manager;
 
 class Process_queue_manager
@@ -17,6 +20,7 @@ class Process_queue_manager
     private:
         bool is_running;
         Main_manager* m_main_manager;
+        
 };
 
 #endif // PROCESS_QUEUE_MANAGER_H

@@ -25,7 +25,13 @@
         <itemPath>src/objects/pleaces/Pleace.h</itemPath>
       </logicalFolder>
       <itemPath>src/objects/items/Base_price_table.h</itemPath>
+      <itemPath>src/Managers/Date.h</itemPath>
+      <itemPath>src/Managers/process_structure/Day_vector.h</itemPath>
+      <itemPath>src/Managers/process_structure/Function_queue.h</itemPath>
+      <itemPath>src/Managers/process_structure/Month_list.h</itemPath>
+      <itemPath>src/objects/characters/Population.h</itemPath>
       <itemPath>src/objects/pleaces/settlements/settlement_buildings/Settlement_building.h</itemPath>
+      <itemPath>src/Managers/Simulation_time.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -51,9 +57,17 @@
       </logicalFolder>
       <itemPath>src/objects/items/Base_price_table.cpp</itemPath>
       <itemPath>src/objects/characters/Character.cpp</itemPath>
+      <itemPath>src/Managers/Date.cpp</itemPath>
+      <itemPath>src/Managers/process_structure/Day_vector.cpp</itemPath>
+      <itemPath>src/Managers/process_structure/Function_queue.cpp</itemPath>
       <itemPath>src/objects/characters/Inventory.cpp</itemPath>
       <itemPath>src/objects/items/Item.cpp</itemPath>
+      <itemPath>src/Managers/process_structure/Month_list.cpp</itemPath>
+      <itemPath>src/objects/pleaces/Pleace.cpp</itemPath>
+      <itemPath>src/objects/characters/Population.cpp</itemPath>
+      <itemPath>src/objects/pleaces/settlements/Settlement.cpp</itemPath>
       <itemPath>src/objects/pleaces/settlements/settlement_buildings/Settlement_building.cpp</itemPath>
+      <itemPath>src/Managers/Simulation_time.cpp</itemPath>
       <itemPath>src/main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -84,11 +98,14 @@
           <standard>11</standard>
           <incDir>
             <pElem>../../Programing_libraries/SFML-2.4.2-source/include</pElem>
+            <pElem>../../Programing_libraries/boost_1_65_1</pElem>
           </incDir>
         </ccTool>
         <linkerTool>
           <linkerAddLib>
             <pElem>../../Programing_libraries/SFML-2.4.2-source/lib</pElem>
+            <pElem>../../Programing_libraries/boost_1_65_1/libs</pElem>
+            <pElem>../../Programing_libraries/boost_1_65_1/boost</pElem>
           </linkerAddLib>
           <linkerCopySharedLibs>true</linkerCopySharedLibs>
           <linkerLibItems>
@@ -100,6 +117,10 @@
           </linkerLibItems>
         </linkerTool>
       </compileType>
+      <item path="src/Managers/Date.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Managers/Date.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="src/Managers/Display_manager.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/Managers/Display_manager.h" ex="false" tool="3" flavor2="0">
@@ -126,6 +147,40 @@
       </item>
       <item path="src/Managers/Setting_manager.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="src/Managers/Simulation_time.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Managers/Simulation_time.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Managers/process_structure/Day_vector.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/Managers/process_structure/Day_vector.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/Managers/process_structure/Function_queue.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/Managers/process_structure/Function_queue.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/Managers/process_structure/Month_list.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/Managers/process_structure/Month_list.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
       <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/objects/characters/Character.cpp"
@@ -142,6 +197,16 @@
       </item>
       <item path="src/objects/characters/Inventory.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="src/objects/characters/Population.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/objects/characters/Population.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
       <item path="src/objects/items/Base_price_table.cpp"
             ex="false"
             tool="1"
@@ -156,11 +221,18 @@
       </item>
       <item path="src/objects/items/item.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="src/objects/pleaces/Pleace.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="src/objects/pleaces/Pleace.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="src/objects/pleaces/settlement/Settlement.h"
             ex="false"
             tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/objects/pleaces/settlements/Settlement.cpp"
+            ex="false"
+            tool="1"
             flavor2="0">
       </item>
       <item path="src/objects/pleaces/settlements/settlement_buildings/Settlement_building.cpp"
@@ -316,8 +388,30 @@
                             perm="755"
                             owner="root"
                             group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}.exe"
+                            from="${OUTPUT_PATH}.exe"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}.exe"
+                            from="${OUTPUT_PATH}.exe"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}.exe"
+                            from="${OUTPUT_PATH}.exe"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
         </packFileList>
       </packaging>
+      <item path="src/Managers/Date.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Managers/Date.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="src/Managers/Display_manager.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/Managers/Display_manager.h" ex="false" tool="3" flavor2="0">
@@ -344,6 +438,40 @@
       </item>
       <item path="src/Managers/Setting_manager.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="src/Managers/Simulation_time.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Managers/Simulation_time.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Managers/process_structure/Day_vector.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/Managers/process_structure/Day_vector.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/Managers/process_structure/Function_queue.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/Managers/process_structure/Function_queue.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/Managers/process_structure/Month_list.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/Managers/process_structure/Month_list.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
       <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/objects/characters/Character.cpp"
@@ -360,6 +488,16 @@
       </item>
       <item path="src/objects/characters/Inventory.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="src/objects/characters/Population.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/objects/characters/Population.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
       <item path="src/objects/items/Base_price_table.cpp"
             ex="false"
             tool="1"
@@ -374,11 +512,18 @@
       </item>
       <item path="src/objects/items/item.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="src/objects/pleaces/Pleace.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="src/objects/pleaces/Pleace.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="src/objects/pleaces/settlement/Settlement.h"
             ex="false"
             tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/objects/pleaces/settlements/Settlement.cpp"
+            ex="false"
+            tool="1"
             flavor2="0">
       </item>
       <item path="src/objects/pleaces/settlements/settlement_buildings/Settlement_building.cpp"
