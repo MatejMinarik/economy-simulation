@@ -1,8 +1,10 @@
 #include "Main_manager.h"
+#include "Actual_date.h"
 #include <iostream>
 
 Main_manager::Main_manager()
 {
+    Actual_date::set_date(Date(0));
     m_is_running = true;
     m_pq_manager = new Process_queue_manager(this);
     m_l_manager = new List_manager(this);
@@ -38,13 +40,9 @@ void Main_manager::init_display_manager()
 void Main_manager::init_all()
 {
     init_display_manager();
-    std::cout << "01" << std::endl;
     init_list_manager();
-    std::cout << "02" << std::endl;
     init_process_queue_manager();
-    std::cout << "03" << std::endl;
     init_setting_manager();
-    std::cout << "04" << std::endl;
 }
 
 void Main_manager::exit_program()

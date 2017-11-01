@@ -18,6 +18,7 @@ class List_manager
     private:
         bool is_running;
         Main_manager* m_main_manager;
+        
 };
 
 #endif // LIST_MANAGER_H

@@ -11,6 +11,9 @@
  * Created on Nedeľa, 2017, októbra 1, 19:11
  */
 
+#include <complex>
+#include <iostream>
+
 #include "Date.h"
 
 Date::Date() {
@@ -18,6 +21,7 @@ Date::Date() {
 }
 
 Date::Date(const Date& orig) {
+    m_days = orig.m_days;
 }
 
 Date::~Date() {
@@ -68,4 +72,69 @@ unsigned long int Date::days_from_date(unsigned char day, unsigned char month, u
     tmp *= DAYS_IN_MONTH;
     tmp += day;
     return tmp;
+}
+
+void Date::next_day() {
+    m_days++;
+}
+
+void Date::previous_day() {
+    m_days--;
+}
+
+void Date::next_month() {
+    m_days += DAYS_IN_MONTH;
+}
+
+void Date::next_year() {
+    m_days -= DAYS_IN_MONTH;
+}
+
+void Date::previous_month() {
+    m_days += (DAYS_IN_MONTH * MONTHS_IN_YEAR);
+}
+
+void Date::previous_year() {
+    m_days -= (DAYS_IN_MONTH * MONTHS_IN_YEAR);
+}
+
+void Date::next_week() {
+    m_days += DAYS_IN_WEEK ;
+}
+
+void Date::previous_week() {
+    m_days -= DAYS_IN_WEEK ;
+}
+
+Date Date::date_difference(Date date1, Date date2) {
+    if(date1.m_days > date2.m_days){
+        return Date(date1.m_days - date2.m_days);
+    }else{
+        return Date(date2.m_days - date1.m_days);
+    }
+    
+}
+
+Date Date::get_copy() {
+    return Date(m_days);
+}
+
+Date Date::get_day_after(unsigned long int days) {
+    return Date(m_days + days);
+}
+
+Date Date::get_day_before(unsigned long int days) {
+    return Date(m_days - days);
+}
+
+bool Date::operator==(const Date date) const {
+    return m_days == date.m_days;
+}
+
+bool Date::operator<(const Date date) const {
+    return m_days < date.m_days;
+}
+
+bool Date::operator>(const Date date) const {
+    return m_days > date.m_days;
 }

@@ -1,0 +1,23 @@
+TO DO list:
+
+-date: add apeoch functionality
+-all: add thread safety futures like locks and waiting to all shared files
+
+modules:
+-economy
+--trade
+--development
+--growing, famin
+
+-traveling, migrating
+
+-culture
+
+-nobels
+
+-fait, religion
+
+-custom rules for population
+
+-error logging
+-story logging

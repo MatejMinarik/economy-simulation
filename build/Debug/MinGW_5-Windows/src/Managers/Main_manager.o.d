@@ -192,7 +192,8 @@ build/Debug/MinGW_5-Windows/src/Managers/Main_manager.o: \
  ../../Programing_libraries/boost_1_65_1/boost/move/detail/config_end.hpp \
  ../../Programing_libraries/boost_1_65_1/boost/move/detail/meta_utils.hpp \
  ../../Programing_libraries/boost_1_65_1/boost/move/detail/meta_utils_core.hpp \
- src/Managers/List_manager.h src/Managers/Setting_manager.h
+ src/Managers/List_manager.h src/Managers/Setting_manager.h \
+ src/Managers/Actual_date.h src/Managers/Date.h
 
 src/Managers/Main_manager.h:
 
@@ -585,3 +586,7 @@ src/Managers/Process_queue_manager.h:
 src/Managers/List_manager.h:
 
 src/Managers/Setting_manager.h:
+
+src/Managers/Actual_date.h:
+
+src/Managers/Date.h:

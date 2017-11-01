@@ -37,6 +37,25 @@ public:
     unsigned int get_year();
     unsigned int get_epoch();   //work in progress, always 0;
     
+    void next_day();
+    void previous_day();
+    void next_month();
+    void previous_month();
+    void next_year();
+    void previous_year();
+    void next_week();
+    void previous_week();
+    
+    Date get_copy();
+    Date get_day_after(unsigned long int days);
+    Date get_day_before(unsigned long int days);
+    
+    bool operator == (const Date date) const;
+    bool operator < (const Date date) const;
+    bool operator > (const Date date) const;
+    
+    static Date date_difference(Date date1, Date date2);
+    
     virtual ~Date();
 private:
     unsigned long int days_from_date(unsigned char day, unsigned char month, unsigned int year, unsigned int epoch);

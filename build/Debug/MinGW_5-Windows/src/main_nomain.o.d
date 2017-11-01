@@ -1,4 +1,4 @@
-build/Debug/MinGW_5-Windows/src/main.o: src/main.cpp \
+build/Debug/MinGW_5-Windows/src/main_nomain.o: src/main.cpp \
  ../../Programing_libraries/SFML-2.4.2-source/include/SFML/Graphics.hpp \
  ../../Programing_libraries/SFML-2.4.2-source/include/SFML/Window.hpp \
  ../../Programing_libraries/SFML-2.4.2-source/include/SFML/System.hpp \
@@ -270,9 +270,7 @@ build/Debug/MinGW_5-Windows/src/main.o: src/main.cpp \
  src/objects/pleaces/settlements/../../characters/Inventory.h \
  src/objects/pleaces/settlements/../../characters/../items/Item.h \
  src/objects/pleaces/settlements/../../characters/Character.h \
- src/Managers/Date.h src/Managers/Actual_date.h src/Managers/Date.h \
- src/../src/Managers/process_structure/Function_queue.h \
- src/../src/Functions/Functions.h
+ src/Managers/Date.h src/Managers/Actual_date.h src/Managers/Date.h
 
 ../../Programing_libraries/SFML-2.4.2-source/include/SFML/Graphics.hpp:
 
@@ -825,7 +823,3 @@ src/Managers/Date.h:
 src/Managers/Actual_date.h:
 
 src/Managers/Date.h:
-
-src/../src/Managers/process_structure/Function_queue.h:
-
-src/../src/Functions/Functions.h:
