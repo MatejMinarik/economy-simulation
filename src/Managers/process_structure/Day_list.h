@@ -27,13 +27,14 @@ class Day_list {
 public:
     Day_list();
     Day_list(const Day_list& orig);
+    Day_list & operator=(const Day_list orig);
     virtual ~Day_list();
     
-    bool add_action(Date date, unsigned int priority, boost::function<bool (void*)> function, void* function_class);
+    bool add_action(Date date, int priority, boost::function<bool (void*)> function, void* function_class);
     Function_queue get_actual_day_queue();
     void remove_actual_day_queue();
 private:
-    map<unsigned long int, Function_queue> m_day_map;
+    map<long int, Function_queue> m_day_map;
     
 };
 

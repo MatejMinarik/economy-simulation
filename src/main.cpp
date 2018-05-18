@@ -1,7 +1,6 @@
 #include <SFML/Graphics.hpp>
 //#include <boost/array.hpp>
 #include "Managers/Main_manager.h"
-#include "objects/pleaces/settlements/Settlement.h"
 #include "Managers/Date.h"
 #include "Managers/Actual_date.h"
 #include <iostream>
@@ -14,11 +13,11 @@ using namespace std;
 int main()
 {
 
-    //Main_manager program_manager;
+    Main_manager program_manager;
 
-    //program_manager.init_all();
+    program_manager.init_all();
 
-    //program_manager.wait_until_end();
+    program_manager.wait_until_end();
     
     std::cout << "--------------begin--------------" << std::endl;
     /*Date a;
@@ -41,8 +40,20 @@ int main()
     
     cout << c.get_day() << "." << c.get_month() << "." << c.get_year() << "." << c.get_epoch() << " ----- " << c.get_raw_date()  << endl;*/
     
-    
+    /*Day_list dl;
+    dl.add_action(Actual_date::get_actual_date().get_day_after(1),2, function_project::test1_function, NULL);
+    Function_queue a = dl.get_actual_day_queue();
+    auto b = a.pop();
+    b.first(b.second);
+    Actual_date::next_date();
+    Function_queue a1 = dl.get_actual_day_queue();
+    b = a1.pop();
+    b.first(b.second);
+     */
+   // dl.
  
+    
+    
     std::cout << "---------------end---------------" << std::endl;
     return 0;
 }

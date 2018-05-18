@@ -32,7 +32,7 @@ protected:
     Settlement_type m_settlement_type;
     Population m_population;
 private:
-    basic_setup();
+    int basic_setup();
 };
 
 #endif /* SETTLEMENT_H */

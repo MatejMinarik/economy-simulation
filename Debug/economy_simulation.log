@@ -1,0 +1,38 @@
+﻿  Map_position.cpp
+  cpp_standard_headers_indexer.cpp
+  Functions.cpp
+  main.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Actual_date.cpp
+  Date.cpp
+  Display_manager.cpp
+  Unknown compiler version - please run the configure tests and report the results
+e:\matko\programing\projects\economy_simulation\src\managers\display_manager.cpp(105): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\matko\programing\projects\economy_simulation\src\managers\display_manager.cpp(110): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Button.cpp
+  List_manager.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Main_manager.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Process_queue_manager.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Day_list.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Function_queue.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Setting_manager.cpp
+  Character.cpp
+  Inventory.cpp
+  Population.cpp
+  Base_price_table.cpp
+  Item.cpp
+  function_queue_test.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Generating Code...
+  Compiling...
+  World_map.cpp
+  Unknown compiler version - please run the configure tests and report the results
+e:\matko\programing\projects\economy_simulation\src\objects\map\world_map.cpp(96): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  c_standard_headers_indexer.c
+  economy_simulation.vcxproj -> E:\Matko\Programing\Projects\economy_simulation\Debug\economy_simulation.exe

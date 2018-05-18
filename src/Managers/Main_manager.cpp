@@ -6,8 +6,8 @@ Main_manager::Main_manager()
 {
     Actual_date::set_date(Date(0));
     m_is_running = true;
-    m_pq_manager = new Process_queue_manager(this);
     m_l_manager = new List_manager(this);
+    m_pq_manager = new Process_queue_manager(this);
     m_s_manager = new Setting_manager(this);
     m_d_manager = new Display_manager(this);
 }
@@ -15,6 +15,10 @@ Main_manager::Main_manager()
 Main_manager::~Main_manager()
 {
     //dtor
+    delete(m_pq_manager);
+    delete(m_l_manager);
+    delete(m_s_manager);
+    delete(m_d_manager);
 }
 
 void Main_manager::init_process_queue_manager()
@@ -58,6 +62,7 @@ void Main_manager::wait_until_end()
     m_cv_ending.wait(lk);
 
     //TO DO: call all managers to end their threads
+    m_pq_manager->stop();
     m_d_manager->stop();
 }
 

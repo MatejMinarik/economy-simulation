@@ -25,7 +25,16 @@ Function_queue::Function_queue() {
 }
 
 Function_queue::Function_queue(const Function_queue& orig) {
+    m_data_functions = orig.m_data_functions;
+    m_highest_priority_queue = orig.m_highest_priority_queue;
 }
+
+Function_queue& Function_queue::operator=(const Function_queue orig) {
+    m_data_functions = orig.m_data_functions;
+    m_highest_priority_queue = orig.m_highest_priority_queue;
+    return *this;
+}
+
 
 Function_queue::~Function_queue() {
 }

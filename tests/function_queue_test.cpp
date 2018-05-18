@@ -64,7 +64,7 @@ void test21() {
     //std::cout << "%TEST_FAILED% time=0 testname=test2 (function_queue_test) message=error message sample" << std::endl;
 }
 
-int main(int argc, char** argv) {
+/*int main(int argc, char** argv) {
     std::cout << "%SUITE_STARTING% function_queue_test" << std::endl;
     std::cout << "%SUITE_STARTED%" << std::endl;
 
@@ -83,5 +83,5 @@ int main(int argc, char** argv) {
     std::cout << "%SUITE_FINISHED% time=0" << std::endl;
 
     return (EXIT_SUCCESS);
-}
+}*/
 

@@ -28,6 +28,7 @@ class Function_queue {
 public:
     Function_queue();
     Function_queue(const Function_queue& orig);
+    Function_queue& operator=(const Function_queue);
     virtual ~Function_queue();
     
     void add_function(int priority, boost::function<bool (void*)> function, void* function_class);

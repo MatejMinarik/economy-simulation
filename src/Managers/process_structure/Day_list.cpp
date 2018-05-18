@@ -12,25 +12,37 @@
  */
 
 #include "Day_list.h"
+#include <iostream>
+
 
 Day_list::Day_list() {
+    
 }
 
 Day_list::Day_list(const Day_list& orig) {
+    m_day_map = orig.m_day_map;
 }
+
+Day_list& Day_list::operator=(const Day_list orig) {
+    m_day_map = orig.m_day_map;
+    return *this;
+}
+
 
 Day_list::~Day_list() {
 }
 
-bool Day_list::add_action(Date date, unsigned int priority, boost::function<bool (void*) > function, void* function_class) {
+bool Day_list::add_action(Date date, int priority, boost::function<bool (void*) > function, void* function_class) {
     //TO DO: add functionality
     if(Actual_date::is_after_actual_date(date)){
         auto day_queue = m_day_map.find(date.get_raw_date());
         if(day_queue != m_day_map.end()){   //day already exist
-            day_queue->second.add_function(priority, function, function_class);            
+            day_queue->second.add_function(priority, function, function_class); 
         }else{                              //new day
-            auto insertion = m_day_map.insert(std::pair<unsigned long int, Function_queue>(date.get_raw_date(), Function_queue()));
-            insertion.first->second.add_function(priority, function, function_class);
+            Function_queue fq_tmp;
+            fq_tmp.add_function(priority, function, function_class);
+            auto insertion = m_day_map.insert(std::pair<long int, Function_queue>(date.get_raw_date(), fq_tmp));
+            //insertion.first->second.add_function();
         }
         return true;
     }

@@ -15,7 +15,7 @@ class Setting_manager
     protected:
 
     private:
-        bool is_running;
+        bool m_is_running;
         Main_manager* m_main_manager;
 };
 
