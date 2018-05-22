@@ -5,37 +5,37 @@
                    displayName="Header Files"
                    projectFiles="true">
       <logicalFolder name="f2" displayName="Characters" projectFiles="true">
-        <itemPath>src/objects/characters/Character.h</itemPath>
-        <itemPath>src/objects/characters/Inventory.h</itemPath>
+        <itemPath>src/libs/objects/characters/Character.h</itemPath>
+        <itemPath>src/libs/objects/characters/Inventory.h</itemPath>
       </logicalFolder>
       <logicalFolder name="f5" displayName="Functions" projectFiles="true">
       </logicalFolder>
       <logicalFolder name="f1" displayName="Items" projectFiles="true">
-        <itemPath>src/objects/items/item.h</itemPath>
+        <itemPath>src/libs/objects/items/Item.h</itemPath>
       </logicalFolder>
       <logicalFolder name="f4" displayName="Managers" projectFiles="true">
-        <itemPath>src/Managers/Display_manager.h</itemPath>
-        <itemPath>src/Managers/List_manager.h</itemPath>
-        <itemPath>src/Managers/Main_manager.h</itemPath>
-        <itemPath>src/Managers/Process_queue_manager.h</itemPath>
-        <itemPath>src/Managers/Setting_manager.h</itemPath>
+        <itemPath>src/libs/Managers/Managers/Display_manager.h</itemPath>
+        <itemPath>src/libs/Managers/Managers/List_manager.h</itemPath>
+        <itemPath>src/libs/Managers/Managers/Main_manager.h</itemPath>
+        <itemPath>src/libs/Managers/Managers/Process_queue_manager.h</itemPath>
+        <itemPath>src/libs/Managers/Managers/Setting_manager.h</itemPath>
       </logicalFolder>
       <logicalFolder name="f3" displayName="Pleaces" projectFiles="true">
         <logicalFolder name="f1" displayName="Settlements" projectFiles="true">
           <itemPath>src/objects/pleaces/settlement/Settlement.h</itemPath>
         </logicalFolder>
-        <itemPath>src/objects/pleaces/Pleace.h</itemPath>
+        <itemPath>src/libs/objects/pleaces/Pleace.h</itemPath>
       </logicalFolder>
-      <itemPath>src/Managers/Actual_date.h</itemPath>
+      <itemPath>src/libs/Managers/Date/Actual_date.h</itemPath>
       <itemPath>src/objects/items/Base_price_table.h</itemPath>
-      <itemPath>src/Managers/GUI/Button.h</itemPath>
-      <itemPath>src/Managers/Date.h</itemPath>
-      <itemPath>src/Managers/process_structure/Day_list.h</itemPath>
-      <itemPath>src/Managers/process_structure/Function_queue.h</itemPath>
-      <itemPath>src/Functions/Functions.h</itemPath>
-      <itemPath>src/Macro_settings.h</itemPath>
-      <itemPath>src/objects/characters/Population.h</itemPath>
-      <itemPath>src/objects/pleaces/settlements/settlement_buildings/Settlement_building.h</itemPath>
+      <itemPath>src/libs/Managers/GUI/Button.h</itemPath>
+      <itemPath>src/libs/Managers/Date/Date.h</itemPath>
+      <itemPath>src/libs/Managers/process_structure/Day_list.h</itemPath>
+      <itemPath>src/libs/Managers/process_structure/Function_queue.h</itemPath>
+      <itemPath>src/libs/Functions/Functions.h</itemPath>
+      <itemPath>src/libs/Macro_settings.h</itemPath>
+      <itemPath>src/libs/objects/characters/Population.h</itemPath>
+      <itemPath>src/libs/objects/pleaces/Settlement_building.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -49,30 +49,30 @@
       <logicalFolder name="f1" displayName="Items" projectFiles="true">
       </logicalFolder>
       <logicalFolder name="f3" displayName="Managers" projectFiles="true">
-        <itemPath>src/Managers/Display_manager.cpp</itemPath>
-        <itemPath>src/Managers/List_manager.cpp</itemPath>
-        <itemPath>src/Managers/Main_manager.cpp</itemPath>
-        <itemPath>src/Managers/Process_queue_manager.cpp</itemPath>
-        <itemPath>src/Managers/Setting_manager.cpp</itemPath>
+        <itemPath>src/libs/Managers/Managers/Display_manager.cpp</itemPath>
+        <itemPath>src/libs/Managers/Managers/List_manager.cpp</itemPath>
+        <itemPath>src/libs/Managers/Managers/Main_manager.cpp</itemPath>
+        <itemPath>src/libs/Managers/Managers/Process_queue_manager.cpp</itemPath>
+        <itemPath>src/libs/Managers/Managers/Setting_manager.cpp</itemPath>
       </logicalFolder>
       <logicalFolder name="f4" displayName="Pleaces" projectFiles="true">
         <logicalFolder name="f1" displayName="Settlements" projectFiles="true">
         </logicalFolder>
       </logicalFolder>
-      <itemPath>src/Managers/Actual_date.cpp</itemPath>
-      <itemPath>src/objects/items/Base_price_table.cpp</itemPath>
-      <itemPath>src/Managers/GUI/Button.cpp</itemPath>
-      <itemPath>src/objects/characters/Character.cpp</itemPath>
-      <itemPath>src/Managers/Date.cpp</itemPath>
-      <itemPath>src/Managers/process_structure/Day_list.cpp</itemPath>
-      <itemPath>src/Managers/process_structure/Function_queue.cpp</itemPath>
-      <itemPath>src/Functions/Functions.cpp</itemPath>
-      <itemPath>src/objects/characters/Inventory.cpp</itemPath>
-      <itemPath>src/objects/items/Item.cpp</itemPath>
-      <itemPath>src/objects/pleaces/Pleace.cpp</itemPath>
-      <itemPath>src/objects/characters/Population.cpp</itemPath>
-      <itemPath>src/objects/pleaces/settlements/Settlement.cpp</itemPath>
-      <itemPath>src/objects/pleaces/settlements/settlement_buildings/Settlement_building.cpp</itemPath>
+      <itemPath>src/libs/Managers/Date/Actual_date.cpp</itemPath>
+      <itemPath>src/libs/objects/items/Base_price_table.cpp</itemPath>
+      <itemPath>src/libs/Managers/GUI/Button.cpp</itemPath>
+      <itemPath>src/libs/objects/characters/Character.cpp</itemPath>
+      <itemPath>src/libs/Managers/Date/Date.cpp</itemPath>
+      <itemPath>src/libs/Managers/process_structure/Day_list.cpp</itemPath>
+      <itemPath>src/libs/Managers/process_structure/Function_queue.cpp</itemPath>
+      <itemPath>src/libs/Functions/Functions.cpp</itemPath>
+      <itemPath>src/libs/objects/characters/Inventory.cpp</itemPath>
+      <itemPath>src/libs/objects/items/Item.cpp</itemPath>
+      <itemPath>src/libs/objects/pleaces/Pleace.cpp</itemPath>
+      <itemPath>src/libs/objects/characters/Population.cpp</itemPath>
+      <itemPath>src/libs/objects/pleaces/Settlement.cpp</itemPath>
+      <itemPath>src/libs/objects/pleaces/Settlement_building.cpp</itemPath>
       <itemPath>src/main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -92,7 +92,10 @@
                    kind="IMPORTANT_FILES_FOLDER">
       <itemPath>Makefile</itemPath>
     </logicalFolder>
+    <itemPath>src/libs/Managers/process_structure/Makefile</itemPath>
+    <itemPath>src/libs/Managers/Makefile</itemPath>
     <itemPath>TO_DO</itemPath>
+    <itemPath>src/libs/Managers/process_structure/newComplexMakefile</itemPath>
   </logicalFolder>
   <sourceRootList>
     <Elem></Elem>
@@ -109,23 +112,14 @@
         <ccTool>
           <standard>11</standard>
           <incDir>
-            <pElem>C:/Program Files (x86)/thor/include</pElem>
-            <pElem>../../Programing_libraries/SFML-2.4.2-source/include</pElem>
-            <pElem>../../Programing_libraries/boost_1_65_1</pElem>
+            <pElem>/usr/local/Cellar/boost/1.60.0_1/include</pElem>
           </incDir>
-          <preprocessorList>
-            <Elem>SFML_STATIC</Elem>
-          </preprocessorList>
         </ccTool>
         <linkerTool>
           <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/economy_simulation</output>
           <linkerAddLib>
-            <pElem>"C:/Program Files (x86)/thor/lib"</pElem>
-            <pElem>../../Programing_libraries/SFML-2.4.2-source/lib</pElem>
-            <pElem>../../Programing_libraries/boost_1_65_1/libs</pElem>
-            <pElem>../../Programing_libraries/boost_1_65_1/boost</pElem>
+            <pElem>/usr/local/Cellar/boost/1.60.0_1/lib</pElem>
           </linkerAddLib>
-          <linkerCopySharedLibs>true</linkerCopySharedLibs>
           <linkerLibItems>
             <linkerLibLibItem>sfml-graphics-d</linkerLibLibItem>
             <linkerLibLibItem>sfml-audio-d</linkerLibLibItem>
@@ -153,130 +147,181 @@
           <output>${TESTDIR}/TestFiles/f1</output>
         </linkerTool>
       </folder>
-      <item path="src/Functions/Functions.cpp" ex="false" tool="1" flavor2="0">
+      <item path="src/libs/Functions/Functions.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="src/Functions/Functions.h" ex="false" tool="3" flavor2="0">
+      <item path="src/libs/Functions/Functions.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="src/Macro_settings.h" ex="false" tool="3" flavor2="0">
+      <item path="src/libs/Macro_settings.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="src/Managers/Actual_date.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="src/Managers/Actual_date.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="src/Managers/Date.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="src/Managers/Date.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="src/Managers/Display_manager.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="src/Managers/Display_manager.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="src/Managers/GUI/Button.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="src/Managers/GUI/Button.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="src/Managers/List_manager.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="src/Managers/List_manager.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="src/Managers/Main_manager.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="src/Managers/Main_manager.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="src/Managers/Process_queue_manager.cpp"
+      <item path="src/libs/Managers/Date/Actual_date.cpp"
             ex="false"
             tool="1"
             flavor2="0">
       </item>
-      <item path="src/Managers/Process_queue_manager.h"
+      <item path="src/libs/Managers/Date/Actual_date.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="src/Managers/Setting_manager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="src/libs/Managers/Date/Date.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="src/Managers/Setting_manager.h" ex="false" tool="3" flavor2="0">
+      <item path="src/libs/Managers/Date/Date.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="src/Managers/process_structure/Day_list.cpp"
+      <item path="src/libs/Managers/GUI/Button.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libs/Managers/GUI/Button.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libs/Managers/Makefile" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libs/Managers/Managers/Display_manager.cpp"
             ex="false"
             tool="1"
             flavor2="0">
       </item>
-      <item path="src/Managers/process_structure/Day_list.h"
+      <item path="src/libs/Managers/Managers/Display_manager.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="src/Managers/process_structure/Function_queue.cpp"
+      <item path="src/libs/Managers/Managers/List_manager.cpp"
             ex="false"
             tool="1"
             flavor2="0">
       </item>
-      <item path="src/Managers/process_structure/Function_queue.h"
+      <item path="src/libs/Managers/Managers/List_manager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libs/Managers/Managers/Main_manager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libs/Managers/Managers/Main_manager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libs/Managers/Managers/Process_queue_manager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libs/Managers/Managers/Process_queue_manager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libs/Managers/Managers/Setting_manager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libs/Managers/Managers/Setting_manager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libs/Managers/process_structure/Day_list.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libs/Managers/process_structure/Day_list.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libs/Managers/process_structure/Function_queue.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libs/Managers/process_structure/Function_queue.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libs/Managers/process_structure/Makefile"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libs/Managers/process_structure/newComplexMakefile"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libs/objects/characters/Character.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libs/objects/characters/Character.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libs/objects/characters/Inventory.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libs/objects/characters/Inventory.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libs/objects/characters/Population.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libs/objects/characters/Population.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libs/objects/items/Base_price_table.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libs/objects/items/Item.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libs/objects/items/Item.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libs/objects/pleaces/Pleace.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libs/objects/pleaces/Pleace.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libs/objects/pleaces/Settlement.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libs/objects/pleaces/Settlement_building.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libs/objects/pleaces/Settlement_building.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
       <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="src/objects/characters/Character.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="src/objects/characters/Character.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="src/objects/characters/Inventory.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="src/objects/characters/Inventory.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="src/objects/characters/Population.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="src/objects/characters/Population.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="src/objects/items/Base_price_table.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
       <item path="src/objects/items/Base_price_table.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="src/objects/items/Item.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="src/objects/items/item.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="src/objects/pleaces/Pleace.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="src/objects/pleaces/Pleace.h" ex="false" tool="3" flavor2="0">
-      </item>
       <item path="src/objects/pleaces/settlement/Settlement.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="src/objects/pleaces/settlements/Settlement.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="src/objects/pleaces/settlements/settlement_buildings/Settlement_building.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="src/objects/pleaces/settlements/settlement_buildings/Settlement_building.h"
             ex="false"
             tool="3"
             flavor2="0">
@@ -316,7 +361,6 @@
             <pElem>../../Programing_libraries/boost_1_65_1/boost</pElem>
             <pElem>C:/Program Files (x86)/thor/lib</pElem>
           </linkerAddLib>
-          <linkerCopySharedLibs>true</linkerCopySharedLibs>
           <linkerLibItems>
             <linkerLibLibItem>sfml-graphics</linkerLibLibItem>
             <linkerLibLibItem>sfml-audio</linkerLibLibItem>
@@ -492,6 +536,12 @@
                             perm="755"
                             owner="root"
                             group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}.exe"
+                            from="${OUTPUT_PATH}.exe"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
         </packFileList>
       </packaging>
       <item path="TO_DO" ex="false" tool="3" flavor2="0">
@@ -511,130 +561,181 @@
           <output>${TESTDIR}/TestFiles/f1</output>
         </linkerTool>
       </folder>
-      <item path="src/Functions/Functions.cpp" ex="false" tool="1" flavor2="0">
+      <item path="src/libs/Functions/Functions.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="src/Functions/Functions.h" ex="false" tool="3" flavor2="0">
+      <item path="src/libs/Functions/Functions.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="src/Macro_settings.h" ex="false" tool="3" flavor2="0">
+      <item path="src/libs/Macro_settings.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="src/Managers/Actual_date.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="src/Managers/Actual_date.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="src/Managers/Date.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="src/Managers/Date.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="src/Managers/Display_manager.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="src/Managers/Display_manager.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="src/Managers/GUI/Button.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="src/Managers/GUI/Button.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="src/Managers/List_manager.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="src/Managers/List_manager.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="src/Managers/Main_manager.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="src/Managers/Main_manager.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="src/Managers/Process_queue_manager.cpp"
+      <item path="src/libs/Managers/Date/Actual_date.cpp"
             ex="false"
             tool="1"
             flavor2="0">
       </item>
-      <item path="src/Managers/Process_queue_manager.h"
+      <item path="src/libs/Managers/Date/Actual_date.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="src/Managers/Setting_manager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="src/libs/Managers/Date/Date.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="src/Managers/Setting_manager.h" ex="false" tool="3" flavor2="0">
+      <item path="src/libs/Managers/Date/Date.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="src/Managers/process_structure/Day_list.cpp"
+      <item path="src/libs/Managers/GUI/Button.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libs/Managers/GUI/Button.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libs/Managers/Makefile" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libs/Managers/Managers/Display_manager.cpp"
             ex="false"
             tool="1"
             flavor2="0">
       </item>
-      <item path="src/Managers/process_structure/Day_list.h"
+      <item path="src/libs/Managers/Managers/Display_manager.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="src/Managers/process_structure/Function_queue.cpp"
+      <item path="src/libs/Managers/Managers/List_manager.cpp"
             ex="false"
             tool="1"
             flavor2="0">
       </item>
-      <item path="src/Managers/process_structure/Function_queue.h"
+      <item path="src/libs/Managers/Managers/List_manager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libs/Managers/Managers/Main_manager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libs/Managers/Managers/Main_manager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libs/Managers/Managers/Process_queue_manager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libs/Managers/Managers/Process_queue_manager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libs/Managers/Managers/Setting_manager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libs/Managers/Managers/Setting_manager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libs/Managers/process_structure/Day_list.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libs/Managers/process_structure/Day_list.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libs/Managers/process_structure/Function_queue.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libs/Managers/process_structure/Function_queue.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libs/Managers/process_structure/Makefile"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libs/Managers/process_structure/newComplexMakefile"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libs/objects/characters/Character.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libs/objects/characters/Character.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libs/objects/characters/Inventory.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libs/objects/characters/Inventory.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libs/objects/characters/Population.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libs/objects/characters/Population.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/libs/objects/items/Base_price_table.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libs/objects/items/Item.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libs/objects/items/Item.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libs/objects/pleaces/Pleace.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libs/objects/pleaces/Pleace.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/libs/objects/pleaces/Settlement.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libs/objects/pleaces/Settlement_building.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libs/objects/pleaces/Settlement_building.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
       <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="src/objects/characters/Character.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="src/objects/characters/Character.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="src/objects/characters/Inventory.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="src/objects/characters/Inventory.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="src/objects/characters/Population.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="src/objects/characters/Population.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="src/objects/items/Base_price_table.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
       <item path="src/objects/items/Base_price_table.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="src/objects/items/Item.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="src/objects/items/item.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="src/objects/pleaces/Pleace.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="src/objects/pleaces/Pleace.h" ex="false" tool="3" flavor2="0">
-      </item>
       <item path="src/objects/pleaces/settlement/Settlement.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="src/objects/pleaces/settlements/Settlement.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="src/objects/pleaces/settlements/settlement_buildings/Settlement_building.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="src/objects/pleaces/settlements/settlement_buildings/Settlement_building.h"
             ex="false"
             tool="3"
             flavor2="0">

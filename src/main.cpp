@@ -1,18 +1,27 @@
-#include <SFML/Graphics.hpp>
+//#include <SFML/Graphics.hpp>
 //#include <boost/array.hpp>
-#include "Managers/Main_manager.h"
-#include "Managers/Date.h"
-#include "Managers/Actual_date.h"
+#include "libs/Managers/Managers/Main_manager.h"
+#include "libs/Managers/Time/Date.h"
+#include "libs/Managers/Time/Actual_date.h"
 #include <iostream>
+#include <gtkmm-2.4/gtkmm.h>
 
-
-#include "../src/Managers/process_structure/Function_queue.h"
-#include "../src/Functions/Functions.h"
+#include "libs/Managers/process_structure/Function_queue.h"
+#include "libs/Functions/Functions.h"
 using namespace std;
 
 int main()
 {
 
+    auto app =
+    Gtk::Application::create(argc, argv,
+      "org.gtkmm.examples.base");
+
+    Gtk::Window window;
+    window.set_default_size(200, 200);
+
+    return app->run(window);
+    
     Main_manager program_manager;
 
     program_manager.init_all();
